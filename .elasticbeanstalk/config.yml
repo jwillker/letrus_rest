@@ -1,6 +1,8 @@
 branch-defaults:
   develop:
     environment: dev-letrus
+  master:
+      environment: prod-letrus
 environment-defaults:
   dev-letrus:
     branch: null
