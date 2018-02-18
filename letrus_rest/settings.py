@@ -25,7 +25,9 @@ SECRET_KEY = 'l*i3wnj7*8y8gb!83=(7q3%sa=+5i(xg@#4l*lx9et28s#o613'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'dev-letrus.us-east-1.elasticbeanstalk.com'
+]
 
 
 # Application definition
