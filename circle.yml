@@ -1,3 +1,6 @@
+machine:
+  post:
+    - pyenv global 3.4.4
 dependencies:
     pre:
       - pip3 install awsebcli
