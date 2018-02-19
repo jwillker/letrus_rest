@@ -1,0 +1,14 @@
+dependencies:
+    pre:
+      - pip install awsebcli
+deployment:
+  develop:
+    branch: develop
+    commands:
+      - eb use dev-letrus --profile default
+      - eb deploy --profile default
+  production:
+    branch: master
+    commands:
+      - eb use prod-letrus --profile default
+      - eb deploy --profile default
