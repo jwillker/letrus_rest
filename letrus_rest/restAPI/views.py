@@ -19,7 +19,7 @@ class UniversityViewSet(viewsets.ModelViewSet):
  
 class CustomView(APIView):
     def get(self, request, format=None):
-        return Response("Resposta para GET")
+        return Response("Resposta prod para GET")
  
     def post(self, request, format=None):
-        return Response("Resposta para POST")
+        return Response("Resposta prod para POST")
